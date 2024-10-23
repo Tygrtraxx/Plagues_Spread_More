@@ -314,12 +314,12 @@ bubonic_plague = {
 			triggered_desc = {
 				trigger = {	 
 					OR = {
-						faith = faith:catholic
-						faith = faith:orthodox
-						faith = faith:nestorian
-						faith = faith:coptic
-						faith = faith:armenian_apostolic
-						faith = faith:insular_celtic
+						outbreak_province.county.faith = faith:catholic
+						outbreak_province.county.faith = faith:orthodox
+						outbreak_province.county.faith = faith:nestorian
+						outbreak_province.county.faith = faith:coptic
+						outbreak_province.county.faith = faith:armenian_apostolic
+						outbreak_province.county.faith = faith:insular_celtic
 					}
 				}
 				desc = epidemic_random_saint_plague
