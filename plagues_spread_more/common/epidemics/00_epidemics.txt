@@ -53,20 +53,6 @@ smallpox = {
 	}
 	
 	on_start = {
-		
-																
-						  
-							
-			 
-	
-   
-		  
-							 
-							
-		   
-	
-   
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
@@ -312,7 +298,7 @@ bubonic_plague = {
 				desc = epidemic_ruler_plague
 			}
 			triggered_desc = {
-				trigger = {	 
+				trigger = {
 					OR = {
 						outbreak_province.county.faith = faith:catholic
 						outbreak_province.county.faith = faith:orthodox
@@ -367,21 +353,6 @@ bubonic_plague = {
 				value = root
 			}
 		}
-									
-															  
-						  
-						  
-			 
-	
-   
-		  
-							 
-						  
-		   
-	
-   
-
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
@@ -771,20 +742,6 @@ typhus = {
 	}
 	
 	on_start = {
-		
-															  
-						  
-						  
-			 
-	
-   
-		  
-							 
-						  
-		   
-	
-   
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
@@ -1102,20 +1059,6 @@ consumption = { #Tuberculosis
 	}
 	
 	on_start = {
-		
-																   
-						  
-							   
-			 
-	
-   
-		  
-							 
-							   
-		   
-	
-   
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
@@ -1187,9 +1130,6 @@ consumption = { #Tuberculosis
 					limit = { has_variable = consumption_endemic_variable }
 					add = outbreak_increase_add_high
 				}
-			
-													
-	 
 				
 				### NO DLC - We increase the chance to make up for the locked diseases ###
 				if = {
@@ -1246,9 +1186,6 @@ consumption = { #Tuberculosis
 					limit = { has_variable = consumption_endemic_variable }
 					add = outbreak_increase_add_low
 				}
-			
-													
-	 
 				
 				### NO DLC - We increase the chance to make up for the locked diseases ###
 				if = {
@@ -1305,9 +1242,6 @@ consumption = { #Tuberculosis
 					limit = { has_variable = consumption_endemic_variable }
 					add = outbreak_increase_add_low
 				}
-			
-													
-	 
 				
 				### NO DLC - We increase the chance to make up for the locked diseases ###
 				if = {
@@ -1464,20 +1398,6 @@ measles = {
 	}
 	
 	on_start = {
-		
-															   
-						  
-						   
-			 
-	
-   
-		  
-							 
-						   
-		   
-	
-   
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
@@ -1540,10 +1460,7 @@ measles = {
 				if = {
 					limit = { has_variable = measles_endemic_variable }
 					add = outbreak_increase_add_high
-				}
-			
-													
-	 
+				} 
 				
 				### DLC LOCKING ###
 				if = {
@@ -1590,8 +1507,7 @@ measles = {
 					limit = { has_variable = measles_endemic_variable }
 					add = outbreak_increase_add_medium
 				}
-				else = {
-													
+				else = {												
 					multiply = 0.5
 				}
 				
@@ -1639,8 +1555,7 @@ measles = {
 					limit = { has_variable = measles_endemic_variable }
 					add = outbreak_increase_add_low
 				}
-				else = {
-													
+				else = {									
 					multiply = 0.25
 				}
 				
@@ -1775,20 +1690,6 @@ dysentery = {
 	}
 	
 	on_start = {
-		
-																 
-						  
-							 
-			 
-	
-   
-		  
-							 
-							 
-		   
-	
-   
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
@@ -2102,20 +2003,6 @@ ergotism = { #dancing plague - not contagious
 	}
 	
 	on_start = {
-		
-																
-						  
-							
-			 
-	
-   
-		  
-							 
-							
-		   
-	
-   
-
 		# LEGITIMACY LOSS FROM EPIDEMIC OUTBREAK
 		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
 	}
