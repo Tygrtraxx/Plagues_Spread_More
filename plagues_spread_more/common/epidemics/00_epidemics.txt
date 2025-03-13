@@ -1460,7 +1460,7 @@ measles = {
 				if = {
 					limit = { has_variable = measles_endemic_variable }
 					add = outbreak_increase_add_high
-				} 
+				}
 				
 				### DLC LOCKING ###
 				if = {
@@ -1507,7 +1507,7 @@ measles = {
 					limit = { has_variable = measles_endemic_variable }
 					add = outbreak_increase_add_medium
 				}
-				else = {												
+				else = {
 					multiply = 0.5
 				}
 				
@@ -1555,7 +1555,7 @@ measles = {
 					limit = { has_variable = measles_endemic_variable }
 					add = outbreak_increase_add_low
 				}
-				else = {									
+				else = {
 					multiply = 0.25
 				}
 				
