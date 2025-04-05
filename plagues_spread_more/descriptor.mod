@@ -1,9 +1,9 @@
-version="1.15.0.*"
+version="1.15.2.*"
 tags={
 	"Gameplay"
 	"Map"
 }
 name="Plagues Spread More"
 picture="thumbnail.png"
-supported_version="1.15.0.*"
+supported_version="1.15.2.*"
 remote_file_id="3190625214"
