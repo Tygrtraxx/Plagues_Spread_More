@@ -1,4 +1,4 @@
-version="1.16.0.*"
+version="1.2.0"
 tags={
 	"Gameplay"
 	"Map"
