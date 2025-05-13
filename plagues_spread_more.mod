@@ -1,10 +1,10 @@
-version="1.2.1"
+version="1.2.2"
 tags={
 	"Gameplay"
 	"Map"
 }
 name="Plagues Spread More"
 picture="thumbnail.png"
-supported_version="1.16.1.*"
+supported_version="1.16.2.*"
 path="C:/Documents/Paradox Interactive/Crusader Kings III/mod/plagues_spread_more"
 remote_file_id="3190625214"
